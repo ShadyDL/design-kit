@@ -1,5 +1,6 @@
 @import "_colors.scss";
 @import "_typography.scss";
+@import "components/_btn.scss";
 
 html {
   /*  
@@ -10,6 +11,7 @@ html {
     Devices running Windows will display Segoe UI
     Machines running Linux will display the default sans-serif font for any running distribution
   */
+  
   font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
 
   /* Make type rendering look crisper */

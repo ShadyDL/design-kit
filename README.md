@@ -11,3 +11,5 @@ Inspiration taken from:
 npm run scss
 ```
 
+## Resources from:
+- http://samherbert.net/svg-loaders/

@@ -54,6 +54,30 @@ html {
 .icon-large {
   font-size: 32px; }
 
+.btn {
+  color: #FFFFFF;
+  width: 200px;
+  border: none;
+  padding: 0.5rem;
+  background-color: #562bf3;
+  font-size: 16px;
+  font-weight: 600;
+  width: 200px;
+  height: 45px;
+  border-radius: 4px;
+  overflow: hidden; }
+
+.btn:hover {
+  cursor: pointer;
+  filter: brightness(120%); }
+
+.btn-img {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px; }
+
 html {
   /*  
     Load system fonts
