@@ -1,0 +1,23 @@
+{
+  "name": "design-kit",
+  "version": "1.0.0",
+  "description": "Basic starting point for any front-end project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadyDL/design-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadyDL/design-kit/issues"
+  },
+  "homepage": "https://github.com/ShadyDL/design-kit#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+@import "_colors.scss";
+@import "_typography.scss";
+
+html {
+  /*  
+    Load system fonts
+
+    Apple devices will display San Francisco
+    Android devices will display Roboto
+    Devices running Windows will display Segoe UI
+    Machines running Linux will display the default sans-serif font for any running distribution
+  */
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+
+  /* Make type rendering look crisper */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Deactivate auto-enlargement of small text in Safari */
+  text-size-adjust: 100%;
+
+  /* Enable kerning and optional ligatures */
+  text-rendering: optimizeLegibility;
+  color: $N800;
+}
+
+/**
+ * Form elements render using OS defaults,
+ * so font-family inheritance must be specifically declared
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
